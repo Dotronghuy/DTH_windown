@@ -30,23 +30,23 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbNV = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tbTen = new System.Windows.Forms.TextBox();
+            this.tbDC = new System.Windows.Forms.TextBox();
+            this.dgwNV = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.dpkNS = new System.Windows.Forms.DateTimePicker();
+            this.cmbMP = new System.Windows.Forms.ComboBox();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwNV)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -61,12 +61,12 @@ namespace WindowsFormsApp1
             this.label1.Text = "Mã NV:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // tbNV
             // 
-            this.textBox1.Location = new System.Drawing.Point(108, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.tbNV.Location = new System.Drawing.Point(108, 29);
+            this.tbNV.Name = "tbNV";
+            this.tbNV.Size = new System.Drawing.Size(100, 22);
+            this.tbNV.TabIndex = 1;
             // 
             // label2
             // 
@@ -104,47 +104,41 @@ namespace WindowsFormsApp1
             this.label5.TabIndex = 5;
             this.label5.Text = "Mã Phòng:";
             // 
-            // textBox2
+            // tbTen
             // 
-            this.textBox2.Location = new System.Drawing.Point(108, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.tbTen.Location = new System.Drawing.Point(108, 65);
+            this.tbTen.Name = "tbTen";
+            this.tbTen.Size = new System.Drawing.Size(100, 22);
+            this.tbTen.TabIndex = 6;
             // 
-            // textBox3
+            // tbDC
             // 
-            this.textBox3.Location = new System.Drawing.Point(316, 29);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
+            this.tbDC.Location = new System.Drawing.Point(316, 65);
+            this.tbDC.Name = "tbDC";
+            this.tbDC.Size = new System.Drawing.Size(100, 22);
+            this.tbDC.TabIndex = 8;
             // 
-            // textBox4
+            // dgwNV
             // 
-            this.textBox4.Location = new System.Drawing.Point(316, 65);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 8;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 158);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 167);
-            this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgwNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgwNV.Location = new System.Drawing.Point(40, 144);
+            this.dgwNV.Name = "dgwNV";
+            this.dgwNV.RowHeadersWidth = 51;
+            this.dgwNV.RowTemplate.Height = 24;
+            this.dgwNV.Size = new System.Drawing.Size(717, 167);
+            this.dgwNV.TabIndex = 9;
+            this.dgwNV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgwNV.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwNV_RowEnter);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.dpkNS);
+            this.groupBox1.Controls.Add(this.cmbMP);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tbDC);
+            this.groupBox1.Controls.Add(this.tbNV);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tbTen);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -156,62 +150,73 @@ namespace WindowsFormsApp1
             this.groupBox1.Text = "Thông tin nhân viên:";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button1
+            // dpkNS
             // 
-            this.button1.Location = new System.Drawing.Point(55, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Thêm mới";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dpkNS.Location = new System.Drawing.Point(316, 32);
+            this.dpkNS.Name = "dpkNS";
+            this.dpkNS.Size = new System.Drawing.Size(152, 22);
+            this.dpkNS.TabIndex = 18;
             // 
-            // button2
+            // cmbMP
             // 
-            this.button2.Location = new System.Drawing.Point(228, 36);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Cập nhật";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cmbMP.FormattingEnabled = true;
+            this.cmbMP.Location = new System.Drawing.Point(564, 46);
+            this.cmbMP.Name = "cmbMP";
+            this.cmbMP.Size = new System.Drawing.Size(121, 24);
+            this.cmbMP.TabIndex = 17;
             // 
-            // button3
+            // btnThem
             // 
-            this.button3.Location = new System.Drawing.Point(387, 36);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 23);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnThem.Location = new System.Drawing.Point(55, 36);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(109, 23);
+            this.btnThem.TabIndex = 11;
+            this.btnThem.Text = "Thêm mới";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click_1);
             // 
-            // button4
+            // btnUpdate
             // 
-            this.button4.Location = new System.Drawing.Point(547, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 23);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Thoát";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(228, 36);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(92, 23);
+            this.btnUpdate.TabIndex = 12;
+            this.btnUpdate.Text = "Cập nhật";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click_1);
+            // 
+            // btndelete
+            // 
+            this.btndelete.Location = new System.Drawing.Point(387, 36);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(92, 23);
+            this.btndelete.TabIndex = 13;
+            this.btndelete.Text = "Xóa";
+            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(547, 36);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(94, 23);
+            this.btnExit.TabIndex = 14;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.btnUpdate);
+            this.groupBox2.Controls.Add(this.btnExit);
+            this.groupBox2.Controls.Add(this.btnThem);
+            this.groupBox2.Controls.Add(this.btndelete);
             this.groupBox2.Location = new System.Drawing.Point(40, 340);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(717, 83);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức năng:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(546, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 17;
             // 
             // FormNhanVien
             // 
@@ -220,10 +225,11 @@ namespace WindowsFormsApp1
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgwNV);
             this.Name = "FormNhanVien";
             this.Text = "FormNhanVien";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FormNhanVien_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgwNV)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -234,21 +240,21 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbNV;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox tbTen;
+        private System.Windows.Forms.TextBox tbDC;
+        private System.Windows.Forms.DataGridView dgwNV;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox cmbMP;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DateTimePicker dpkNS;
     }
 }
