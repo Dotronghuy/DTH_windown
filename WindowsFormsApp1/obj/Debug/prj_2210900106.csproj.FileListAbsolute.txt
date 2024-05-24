@@ -1,0 +1,22 @@
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.AssemblyReference.cache
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormNhanVien.resources
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.GenerateResource.cache
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.CoreCompileInputs.cache
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\2210900106-Lê Vinh Huy-DE01\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.AssemblyReference.cache
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormNhanVien.resources
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.GenerateResource.cache
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\prj_2210900106.csproj.CoreCompileInputs.cache
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\ĐỖ Trọng Huy- 2210900029\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
